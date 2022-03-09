@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <es.avifer.collapsiblelist.CollapsibleList
+            android:id="@+id/activity_main__collapsible_list__first_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_main__collapsible_list__first_list__margin"
+            app:backgroundColorHeader="@color/teal_700"
+            app:colorBorderList="@color/teal_700"
+            app:colorTextHeader="@color/white"
+            app:cornerBorderRadius="@dimen/activity_main__collapsible_list__first_list__corner_border_radius"
+            app:cornerRadiusHeader="@dimen/activity_main__collapsible_list__first_list__radius_header"
+            app:heightHeader="@dimen/activity_main__collapsible_list__first_list__height_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:maxLinesTextHeader="2"
+            app:paddingHorizontalTextHeader="@dimen/activity_main__collapsible_list__first_list__padding_horizontal_text_header"
+            app:paddingVerticalTextHeader="@dimen/activity_main__collapsible_list__first_list__padding_vertical_text_header"
+            app:sizeBorderList="@dimen/activity_main__collapsible_list__first_list__size_border_list"
+            app:sizeTextHeader="@dimen/activity_main__collapsible_list__first_list__size_text_header"
+            app:textHeader="@string/activity_main__collapsible_list__first_list__text_header" />
+
+        <es.avifer.collapsiblelist.CollapsibleList
+            android:id="@+id/activity_main__collapsible_list__second_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_main__collapsible_list__second_list__margin"
+            app:backgroundColorHeader="@color/teal_700"
+            app:colorBorderList="@color/teal_700"
+            app:colorTextHeader="@color/white"
+            app:cornerBorderRadius="@dimen/activity_main__collapsible_list__second_list__corner_border_radius"
+            app:cornerRadiusHeader="@dimen/activity_main__collapsible_list__second_list__radius_header"
+            app:heightHeader="@dimen/activity_main__collapsible_list__second_list__height_header"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:maxLinesTextHeader="2"
+            app:paddingHorizontalTextHeader="@dimen/activity_main__collapsible_list__second_list__padding_horizontal_text_header"
+            app:paddingVerticalTextHeader="@dimen/activity_main__collapsible_list__second_list__padding_vertical_text_header"
+            app:sizeBorderList="@dimen/activity_main__collapsible_list__second_list__size_border_list"
+            app:sizeTextHeader="@dimen/activity_main__collapsible_list__second_list__size_text_header"
+            app:textHeader="@string/activity_main__collapsible_list__second_list__text_header" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view__collapsible_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background__view__collapsable_list">
+
+    <View
+        android:id="@+id/collapsible_list__view__background_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collapsible_list__view__background_header__height"
+        android:background="@drawable/collapsible_list__view__background_header__shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/collapsible_list__label__title_header"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingHorizontal="@dimen/collapsible_list__label__title_header__padding_horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/collapsible_list__view__background_header"
+        app:layout_constraintEnd_toStartOf="@id/collapsible_list__guideline__separate_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Example text Example text Example text Example text Example text Example text Example text Example text"
+        tools:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/collapsible_list__img__img_collapsible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:padding="@dimen/collapsible_list__img__img_collapsible__padding"
+        android:src="@drawable/icon_expanded_more"
+        app:layout_constraintBottom_toBottomOf="@id/collapsible_list__view__background_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/collapsible_list__guideline__separate_header"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/collapsible_list__guideline__separate_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@dimen/collapsible_list__guideline__separate_header__percent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/collapsible_list__list__list_elements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hapticFeedbackEnabled="false"
+        android:padding="@dimen/collapsible_list__list__list_elements__padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collapsible_list__view__background_header">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

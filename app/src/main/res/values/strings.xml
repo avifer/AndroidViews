@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">App CollapsibleList</string>
+    <string name="activity_main__collapsible_list__first_list__text_header">First list</string>
+    <string name="activity_main__collapsible_list__second_list__text_header">Second list</string>
 </resources>
