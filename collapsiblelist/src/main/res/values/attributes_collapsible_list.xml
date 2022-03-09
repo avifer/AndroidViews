@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CollapsibleList">
+        <!--HEADER-->
+        <attr name="heightHeader" format="dimension" />
+        <attr name="backgroundColorHeader" format="color" />
+        <attr name="cornerRadiusHeader" format="dimension" />
+        <!--TEXT HEADER-->
+        <attr name="textHeader" format="string" />
+        <attr name="colorTextHeader" format="color" />
+        <attr name="sizeTextHeader" format="dimension" />
+        <attr name="maxLinesTextHeader" format="integer" />
+        <attr name="paddingHorizontalTextHeader" format="dimension" />
+        <attr name="paddingVerticalTextHeader" format="dimension" />
+        <!--LIST-->
+        <attr name="paddingListElements" format="dimension" />
+        <attr name="colorBorderList" format="color" />
+        <attr name="sizeBorderList" format="dimension" />
+        <attr name="cornerBorderRadius" format="dimension" />
+    </declare-styleable>
+</resources>

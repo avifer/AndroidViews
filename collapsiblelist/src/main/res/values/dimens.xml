@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="collapsible_list__view__background_header__height">60dp</dimen>
+    <dimen name="collapsible_list__label__title_header__padding_horizontal">16dp</dimen>
+    <dimen name="collapsible_list__img__img_collapsible__padding">8dp</dimen>
+    <dimen name="collapsible_list__list__list_elements__padding">8dp</dimen>
+    <dimen name="default_radius_header">0dp</dimen>
+    <item name="collapsible_list__guideline__separate_header__percent" type="dimen" format="float">0.85</item>
+</resources>

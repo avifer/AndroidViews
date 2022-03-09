@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_example__label__name__text_size">32sp</dimen>
+
+    <dimen name="activity_main__collapsible_list__first_list__margin">12dp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__radius_header">8dp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__height_header">60dp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__padding_horizontal_text_header">12dp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__padding_vertical_text_header">6dp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__size_text_header">8sp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__size_border_list">2dp</dimen>
+    <dimen name="activity_main__collapsible_list__first_list__corner_border_radius">8dp</dimen>
+
+    <dimen name="activity_main__collapsible_list__second_list__margin">12dp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__radius_header">8dp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__height_header">60dp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__padding_horizontal_text_header">12dp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__padding_vertical_text_header">6dp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__size_text_header">8sp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__size_border_list">2dp</dimen>
+    <dimen name="activity_main__collapsible_list__second_list__corner_border_radius">8dp</dimen>
+</resources>
